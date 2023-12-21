@@ -32,7 +32,7 @@ export const Navbar = () => {
                     <Sparkles className="h-4 w-4 fill-none text-white ml-2" />
                 </Button>
                 <ModeToggle />
-                <UserButton />
+                <UserButton afterSignOutUrl="/" />
             </div>
         </div>
     );
